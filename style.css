@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+}
+.background-box {
+  border: 3px solid rgb(0, 255, 140);
+  display: flex;
+  display: inline-flex;
+}
+
+.stocks {
+  width: 700px;
+  height: 923px;
+  border: 3px solid purple;
+}
+
+.bull {
+  width: 100px;
+
+  color: #fff;
+  border: 3px solid orange;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  bottom: 40rem;
+  padding-left: 100px;
+  background-color: rgba(133, 127, 127, 0.5);
+  color: #fff;
+  padding-right: 112px;
+  border: 3px solid blue;
+}
+
+.enterprise {
+  font-family: "Cormorant SC", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  border: 3px solid green;
+}
+
+.explanation {
+  border: 3px solid red;
+  position: absolute;
+  display: flex;
+  /* justify-content: center; */
+  display: inline-flex;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.call {
+  border: 3px solid turquoise;
+  font-size: 30px;
+}
