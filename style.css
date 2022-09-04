@@ -2,9 +2,10 @@
 
 * {
   margin: 0;
+  body: 0;
 }
 .background-box {
-  border: 3px solid rgb(0, 255, 140);
+  /* border: 3px solid rgb(0, 255, 140); */
   display: flex;
   display: inline-flex;
 }
@@ -12,14 +13,14 @@
 .stocks {
   width: 700px;
   height: 923px;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
 .bull {
   width: 100px;
 
   color: #fff;
-  border: 3px solid orange;
+  /* border: 3px solid orange; */
 }
 
 .logo {
@@ -30,54 +31,99 @@
   background-color: rgba(133, 127, 127, 0.5);
   color: #fff;
   padding-right: 112px;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
 }
 
 .enterprise {
   font-family: "Cormorant SC", sans-serif;
   font-size: 40px;
   font-weight: 500;
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 
 .explanation {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   position: absolute;
   display: flex;
   /* justify-content: center; */
   display: inline-flex;
-  margin-left: ;
+  margin-left: 0px;
   margin-top: ;
-  height: 275px;
-  width: auto;
+  height: 310px;
+  width: 1180px;
+  padding-left: 30px;
   background-color: #f5f5f5;
 }
 
 .call {
-  border: 3px solid turquoise;
+  /* border: 3px solid turquoise; */
   font-size: 30px;
   margin-top: 60px;
+  width: 900px;
 }
 
 form {
   /* Center the form on the page */
-  width: auto;
   /* Form outline */
   /* padding: 1em; */
-  border: 1px solid #ccc;
+  /* border: 3px solid #ccc; */
   /* border-radius: 1em; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  font-family: "Cormorant SC", sans-serif;
+}
+form h1 {
+  grid-column: span 2;
 }
 
 .signup-container {
-  display: flex;
-  border: 3px solid orchid;
+  /* display: flex; */
+  position: relative;
+  margin-left: 750px;
+  bottom: 600px;
+  /* border: 3px solid orchid; */
   /* margin-top: 300px; */
-  width: auto;
+  width: 900px;
 }
 
-.signup-container ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 50%;
+.bottom-box {
+  /* border: 3px solid black; */
+  position: relative;
+  width: 1187px;
+  height: 290px;
+  left: 709px;
+  bottom: 550px;
+  box-shadow: 0px -10px 10px -10px rgba(141, 137, 137, 0.99);
+}
+
+.create {
+  background-color: #596d48;
+  /* border: 3px solid purple; */
+  color: white;
+  margin-top: 30px;
+  width: 170px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 43px;
+}
+
+.account {
+  margin-left: 43px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+input[type="text"],
+input {
+  border-radius: 5px;
+  width: 250px;
 }
